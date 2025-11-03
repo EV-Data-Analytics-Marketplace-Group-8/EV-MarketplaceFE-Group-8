@@ -1,0 +1,129 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #fff;
+}
+
+.auth-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo-text {
+    color: #20beff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    flex: 1;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    color: #666;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.tabs button.active {
+    color: #20beff;
+    border-bottom-color: #20beff;
+}
+
+.oauth-btn {
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.oauth-btn:hover {
+    opacity: 0.9;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider span {
+    color: #777;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    height: 1px;
+    width: 40%;
+    background-color: #ddd;
+    margin: 0 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+form input:focus {
+    border-color: #20beff;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #20beff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #19a6e0;
+}
+
+.text-muted {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+
+.link {
+    color: #20beff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

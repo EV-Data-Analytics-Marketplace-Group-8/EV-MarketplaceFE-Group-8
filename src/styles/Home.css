@@ -1,0 +1,131 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 120px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-text h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.google-btn,
+.email-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.google-btn img {
+    width: 18px;
+}
+
+.hero-image img {
+    max-width: 480px;
+}
+
+/* Generic Section */
+.section {
+    padding: 80px 120px;
+}
+
+.section.light {
+    background: #fafafa;
+}
+
+.section.white {
+    background: #fff;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.section p {
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+/* Grid cards */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Datasets section */
+.datasets {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.datasets .stats {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.datasets .stats div {
+    text-align: center;
+}
+
+.datasets .stats strong {
+    font-size: 1.6rem;
+    display: block;
+}
+
+.datasets-img {
+    max-width: 600px;
+}
+
+/* Community */
+.community {
+    text-align: center;
+}
+
+.community-img {
+    max-width: 700px;
+    margin-top: 40px;
+}

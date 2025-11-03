@@ -1,0 +1,49 @@
+.footer {
+    padding: 60px 120px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.footer-logo img {
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-cols {
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.footer-cols h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer-cols p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.footer-cols p:hover {
+    color: #20beff;
+}
+
+.footer-social {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social img {
+    width: 22px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.footer-social img:hover {
+    opacity: 1;
+}
